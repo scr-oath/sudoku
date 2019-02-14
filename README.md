@@ -59,7 +59,7 @@ Here's the final board at the end:
 
 Advantages in this approach:<br>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Lean code with almost no resource consumption.<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Works with any 'size' of a sudoku (must be a perfect square though) but its easy to change the code for any different size.
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Works with any 'size' of a sudoku (must be a perfect square though) but its easy to change the code for any different shape.
 
 Next Steps:<br>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. It cannot solve 'very hard' sudoku puzzles. That’s because I don't know how to solve them personally. Once I figure that piece out, I will update the code :)<br>
