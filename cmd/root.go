@@ -40,7 +40,7 @@ func init() {
 	cobra.OnInitialize(initConfig)
 
 	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.sodoku.yaml)")
-	loglevel := rootCmd.PersistentFlags().StringP("loglevel", "l", "DEBUG", "loglevel")
+	loglevel := rootCmd.PersistentFlags().StringP("loglevel", "l", "INFO", "loglevel")
 
 	rootCmd.PersistentPreRunE = func(cmd *cobra.Command, args []string) error {
 		level, err := logrus.ParseLevel(*loglevel)
